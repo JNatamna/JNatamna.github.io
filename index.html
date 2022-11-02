@@ -33,6 +33,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Oslo, Norway</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>noor.atamna@gmail.com</p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+47 90 23 15 30</p>
+          <p><i class="fa-fw w3-margin-right w3-large w3-text-teal"><img src="images\logo-githubw3.png" style="height:7%; width: 7%;"></i>github</p>
+          <p><i class="fa-fw w3-margin-right w3-large w3-text-teal"><img src="images\logo-itchiow3.png" style="height:7%; width: 7%;"></i>itch</p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
@@ -122,44 +124,49 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="w3-twothird">
 
       <!-- Portfolio Start -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
+      <div class="w3-container w3-card w3-white w3-margin-bottom" style="min-height: 350px;">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2>
-        <div class="grid-container" style="display: grid; grid-template-columns: repeat(3, 1fr);">
+        <div class="grid-container">
           <div class="item1" style="padding: 5%;">
-            <img src="images\logo-thefactory.png" style="width:100%"  alt="Avatar" id="portImg"
-            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" onclick="showModal(this)">
+            <img src="images\logo-thefactory.png" alt="" id="portImg"
+            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" data-itchlink="" data-gitlink="" onclick="showModal(this)">
           </div>
           <div class="item2" style="padding: 5%;">
-            <img src="images\logo-thefactory.png" style="width:100%"  alt="Avatar" id="portImg"
-            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" onclick="showModal(this)">
+            <img src="images\logo-thefactory.png" alt="" id="portImg"
+            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" data-itchlink="" data-gitlink="" onclick="showModal(this)">
           </div>
           <div class="item3" style="padding: 5%;">
-            <img src="images\logo-thefactory.png" style="width:100%"  alt="Avatar" id="portImg"
-            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" onclick="showModal(this)">
+            <img src="images\logo-thefactory.png" alt="" id="portImg"
+            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" data-itchlink="" data-gitlink="" onclick="showModal(this)">
           </div>
-          <div class="item4" style="padding: 5;">
-            <img src="images\logo-thefactory.png" style="width:100%"  alt="Avatar" id="portImg"
-            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" onclick="showModal(this)">
+          <div class="item4" style="padding: 5%;">
+            <img src="images\logo-thefactory.png" alt="" id="portImg"
+            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" data-itchlink="" data-gitlink="" onclick="showModal(this)">
           </div>
-          <div class="item5" style="padding: 5;">
-            <img src="images\logo-thefactory.png" style="width:100%"  alt="Avatar" id="portImg"
-            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" onclick="showModal(this)">
+          <div class="item5" style="padding: 5%;">
+            <img src="images\logo-roboescape.png" alt="The game is about a Robot who is created at a certain factory. 
+            This Robot, Kyle, has become slightly more sentient then the others.
+            
+            Kyle has a strong desire to escape this Robot Factory! 
+            
+            
+            The game uses A* pathfinding to make Kyle find the quickest path
+            to his desired location. You can do this by clicking on a valid position on the grid.
+            
+            The AI themselves that try to catch Kyle uses different algorithims for their behaviour.
+            If Kyle is seen by the patrols then they will walk/seek directly towards him unless a wall is in the way.
+            An obstacle avoidance pattern will make sure the AI runs around the walls and not through them.
+            
+            AI will otherwise walk around in set positions or random targets like a Wanderer." id="portImg"
+            data-url="https://www.youtube.com/embed/F7TRdtDNEAw" data-itchlink="https://jnatamna.itch.io/roboescape" data-gitlink="" onclick="showModal(this)">
           </div>
           <div class="item6" style="padding: 5%;">
-            <img src="images\logo-vrschool.png" style="width:100%"  alt="Avatar" id="portImg"
-            data-url="https://www.youtube.com/embed/fQ2CVl-FldM" onclick="showModal(this)">
+            <img src="images\logo-vrschool.png" style="width:100%;" alt="" id="portImg"
+            data-url="https://www.youtube.com/embed/fQ2CVl-FldM" data-itchlink="" data-gitlink="" onclick="showModal(this)">
           </div>
         </div> 
       </div>
-      
-      <div id="myModal" class="modal">
-        <div id="mainContent" class="modal-content">        
-          <iframe id="videoPlayer" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div id="caption">sssssssssss</div>
-        </div>
-        <span class="close">&times;</span>
-      </div>
-      
+            
       <!-- Portfolio End -->
     
       <!-- Work Experience Start -->
@@ -221,10 +228,21 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
   <!-- End Grid -->
   </div>
-  
+
+  <div id="myModal" class="modal">
+    <div id="mainContent" class="modal-content">
+        <iframe id="videoPlayer" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+        <div id="caption"></div>
+        <div id="logos">
+          <img id="gitImg" src="images\logo-github.png" alt="logo">
+          <img id="itchImg" src="images\logo-itchio.png" alt="logo">
+        </div>
+    </div>
+    <span class="close">&times;</span>
+  </div>
+
   <!-- End Page Container -->
 </div>
-
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
   <p>Find me on social media.</p>
